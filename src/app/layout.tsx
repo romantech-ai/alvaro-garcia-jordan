@@ -69,12 +69,12 @@ export default function RootLayout({
           }}
         />
       
-        <script dangerouslySetInnerHTML={{ __html: `window.__WIDGET_API_URL="http://localhost:3000";window.__PROJECT_ID="alvaro-garcia-jordan";` }} />
+        <script dangerouslySetInnerHTML={{ __html: `window.__WIDGET_API_URL="https://automatizacion-webs.vercel.app";window.__PROJECT_ID="alvaro-garcia-jordan";` }} />
 
         <script
-          src="http://localhost:3000/widget.js"
+          src="https://automatizacion-webs.vercel.app/widget.js"
           data-project-name="Álvaro García Jordán Fisioterapia - Clínica de fisioterapia"
-          data-api-url="http://localhost:3000"
+          data-api-url="https://automatizacion-webs.vercel.app"
           data-project-id="alvaro-garcia-jordan"
           data-primary-color="#746557"
           defer
